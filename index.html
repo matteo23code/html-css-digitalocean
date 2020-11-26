@@ -18,7 +18,7 @@
         </a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto ">
+          <ul class="navbar-nav mr-auto hidden-sm  ">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <strong>Products</strong>
@@ -49,7 +49,12 @@
             </li>
           </ul>
           <div class="navbar-right">
-            <ul  class="navbar-nav mr-auto ">
+            <ul class="navbar-nav mr-auto visible-xs visible-sm">
+              <li class="nav-item">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </li>
+            </ul>
+            <ul  class="navbar-nav mr-auto hidden-sm ">
               <li class="nav-item">
                 <a class="nav-link" href="#"><strong>Customers</strong></a>
               </li>
@@ -66,6 +71,38 @@
     </div>
   </nav>
     <!-- and navbar -->
+
+    <!-- start jumbotron -->
+    <div class="bg-jumbo">
+      <div class="row">
+        <div class="container">
+          <div class=" jumbo col-xs-12 col-sm-6 col-md-6">
+            <h1>The simplest cloud <br>platform for<br> developers & teams</h1>
+            <span>Deploy,manage, and scale cloud applications fasters and more <br>efficiently on DigitalOcean. we make managing infrastucture<br>easy for teams andbusinesses, whether you,re running one<br>virtual machine or ten thosand.</span>
+          </div>
+          <div class="jumbo col-xs-12 col-sm-6 col-md-6">
+            <div class="deploy text-center">
+              <h4><strong>Deploy your app in seconds.<br>
+                <span>Get started now.</span></strong>
+              </h4>
+              <form class="create text-left" action="index.html" method="post">
+                <input type="text" name="email" value="" placeholder="Email">
+                <input type="password" name="password" value="" placeholder="Password">
+                <button type="button" name="btn-account">Create your account</button>
+                <button type="button" name="btn-google"><i class="fa fa-google" aria-hidden="true"></i>Sign up with google</button>
+                <p><strong>By Signing up you agree to the <a href="#">Terms of Service.</strong></a></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- and jumbotron -->
+
+    <!-- start main page "section innovative" -->
+    <div class="">
+
+    </div>
 
 
   </body>
