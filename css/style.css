@@ -100,12 +100,70 @@
   width: 150px;
   margin: 30px 20px 30px 20px;
 }
+/* and main innovative */
 
+/* start deploy & scale */
+.ds-title h4{
+  color: #082051;
+}
 
+.ds-title p{
+  font-size: 15px;
+  color: #8791A8 ;
+}
 
+.ds-title{
+margin-top: 40px;
+}
 
+.description ul{
+  border-left: 2px solid #8791A8;
+  margin-left: 15px;
+  line-height: 2.5;
+  margin-top: 40px;
+}
 
+.description li{
+  list-style: none;
+  color: #8791A8;
+  font-weight: bold;
+  font-size: 15px;
+}
 
+.tab-1{
+margin-top: 40px;
+
+}
+
+.tab-2{
+  margin-bottom: 50px;
+
+}
+
+.inside{
+  font-size: 12px;
+  font-weight: bold;
+  color: #8791A8;
+}
+
+.inside h4{
+  font-size: 16px;
+  color: #082051;
+}
+
+.inside img{
+  width:20px;
+}
+/* and deploy & scale */
+
+/* start carousel */
+.first-slide{
+
+}
+
+.carousel-control{
+  border: 1px solid black;
+}
 
 
 
@@ -116,7 +174,28 @@
     margin: 30px 10px 30px 0px;
   }
 
-}
+  .inside{
+    font-size: 11px;
+    font-weight: bold;
+    color: #8791A8;
+
+  }
+
+  .inside h4{
+    font-size: 16px;
+    color: #082051;
+  }
+
+  .tab-1{
+    height:  150px;
+  }
+
+  .tab-2{
+    margin-bottom: 0px;
+    height:  150px;
+  }
+
+
 
 
 }
