@@ -161,6 +161,10 @@ margin-top: 40px;
   background: #F3F5F9;
 }
 
+.title-designed{
+
+}
+
 .center-image img{
   width: 80%;
   height: auto;
@@ -171,13 +175,30 @@ margin-top: 40px;
 
 
  .circle li{
+   margin-top: 100px;
    color: #1275FF;
    display: inline-block;
  }
 
-  .fa-circle-o {
-
+ .contain-service{
+   height: 500px;
  }
+
+ .service-item{
+   font-weight: bold;
+   color: #8791A8;
+   font-size: 12px;
+   margin-top:20px;
+ }
+
+ .service-item h4{
+   font-weight: bold;
+   font-size: 18px;
+   color: #082051;
+ }
+
+
+
 
 @media screen and (min-width: 768px){
 
