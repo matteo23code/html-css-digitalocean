@@ -179,9 +179,12 @@ margin-top: 40px;
    color: #1275FF;
    display: inline-block;
  }
+ /* and carousel */
+
+ /* start features */
 
  .contain-service{
-   height: 500px;
+   margin: 50px 0;
  }
 
  .service-item{
@@ -196,6 +199,28 @@ margin-top: 40px;
    font-size: 18px;
    color: #082051;
  }
+/* and features */
+
+/*  start coutry service */
+
+.bg-country{
+  background: #0044C2;
+  color: #fff;
+}
+/* and country service */
+
+/* start second carousel */
+
+.circle-2 li{
+  margin-top: 100px;
+  color: #1275FF;
+  display: inline-block;
+
+}
+
+
+
+
 
 
 
