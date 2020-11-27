@@ -157,15 +157,27 @@ margin-top: 40px;
 /* and deploy & scale */
 
 /* start carousel */
-.first-slide{
-
+.bg-carousel{
+  background: #F3F5F9;
 }
 
-.carousel-control{
-  border: 1px solid black;
+.center-image img{
+  width: 80%;
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  vertical-align: middle;
 }
 
 
+ .circle li{
+   color: #1275FF;
+   display: inline-block;
+ }
+
+  .fa-circle-o {
+
+ }
 
 @media screen and (min-width: 768px){
 
@@ -194,6 +206,10 @@ margin-top: 40px;
     margin-bottom: 0px;
     height:  150px;
   }
+
+
+
+
 
 
 
