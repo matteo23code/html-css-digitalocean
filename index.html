@@ -6,81 +6,65 @@
     <title>Digitalocean</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
    </head>
   <body>
 
     <!-- start navabar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav>
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/digital-ocean-logo.png" alt="logo">
-        </a>
-
-        <div class=>
-          <ul class="navbar-nav mr-auto hidden-sm  ">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <strong>Products</strong>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><strong>Customers</strong></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <strong>Community</strong>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><strong>Pricing</strong></a>
-            </li>
-          </ul>
-          <div class="navbar-right">
-            <ul class="navbar-nav mr-auto visible-xs visible-sm">
-              <li class="nav-item">
-                <i class="fa fa-bars" aria-hidden="true"></i>
+        <div class="row">
+          <div class=" border col-xs-12 col-sm-12 col-md-12">
+          <div class=" navbar-brand col-xs-4 col-sm-6 col-md-3 ">
+            <img src="img/digital-ocean-logo.png" alt="">
+          </div>
+          <div class="navbar-left item col-md-5  hidden-xs hidden-sm">
+            <ul >
+              <li>
+                <select class="item-menu" name="">
+                  <option value="">Products</option>
+                </select>
+             </li>
+              <li>Customers</li>
+              <li>
+                <select class="item-menu" name="">
+                  <option value="">Community</option>
+                </select>
               </li>
-            </ul>
-            <ul  class="navbar-nav mr-auto hidden-sm ">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>Customers</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>Customers</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>Customers</strong></a>
-              </li>
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <li>Pricing</li>
             </ul>
           </div>
+          <div class="navbar-right item col-xs-8 col-sm-6 col-md-4">
+            <i class="fa fa-bars hidden-md " aria-hidden="true"></i>
+            <ul class="hidden-xs hidden-sm">
+              <li>Docs</li>
+              <li>
+                <select class="item-menu " name="">
+                  <option value="">Support</option>
+                </select>
+              </li>
+              <li>Login</li>
+              <li> <button type="button" name="button">Sign Up</button> </li>
+            </ul>
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
     <!-- and navbar -->
 
     <!-- start jumbotron -->
     <div class="bg-jumbo">
       <div class="row">
         <div class="container">
-          <div class=" jumbo col-xs-12 col-sm-6 col-md-6">
-            <h1>The simplest cloud <br>platform for<br> developers & teams</h1>
-            <span>Deploy,manage, and scale cloud applications fasters and more <br>efficiently on DigitalOcean. we make managing infrastucture<br>easy for teams andbusinesses, whether you,re running one<br>virtual machine or ten thosand.</span>
+          <div class=" jumbo col-xs-12 col-sm-7 col-md-6">
+            <h1>The simplest cloud platform for developers & teams</h1>
+            <span>Deploy,manage, and scale cloud applications fasters and more efficiently on DigitalOcean. we make managing infrastucture easy for teams andbusinesses, whether you,re running one virtual machine or ten thosand.</span>
           </div>
-          <div class="jumbo col-xs-12 col-sm-6 col-md-6">
+          <div class=" col-xs-12 col-sm-5 col-md-6">
             <div class="deploy text-center">
               <h4><strong>Deploy your app in seconds.<br>
                 <span>Get started now.</span></strong>
@@ -175,7 +159,7 @@
         <div class="container">
           <div class=" bg-carousel  text-center col-xs-12 col-sm-12 col-md-12">
             <div class="title-designed">
-            <h2>Designed for developers</h2>
+            <h5>Designed for developers</h5>
             <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           </div>
             <div class="row">
@@ -188,7 +172,7 @@
               </div>
               <h4>Create compute servers in 55 seconds or less.</h4>
               <ul class="circle">
-                <li><i class="fa fa-circle-o" aria-hidden="true"> </i></li>
+                <li><i class="fa fa-circle" aria-hidden="true"></i></li>
                 <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
                 <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
                 <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
@@ -306,30 +290,121 @@
       <!-- and country service -->
 
       <!-- start development team -->
-      <div class="row">
+      <div class=" bg-carousel  text-center ">
         <div class="container">
-          <div class=" bg-carousel  text-center col-xs-12 col-sm-12 col-md-12">
+          <div class="row">
             <div class="title-designed">
-            <h2>Development teams love DigitalOcean</h2>
-
-          </div>
-            <div class="row">
-              <div class="container">
-                <div class="center-image col-xs-12 col-sm-12 col-md-12">
-                  <i class="fa fa-chevron-left hidden-xs" aria-hidden="true"></i>
+              <h3>Development teams love DigitalOcean</h3>
+            </div>
+            <div class="container">
+              <div class="row">
+                  <div class="arrow-left col-sm-3 col-md-3">
+                    <i class="fa fa-chevron-left hidden-xs" aria-hidden="true"></i>
+                  </div>
+                  <div class=" center-image2 col-sm-4 col-md-4">
                   <img src="img/ROCKERBOX.PNG" alt="">
+                  <h5>"We have been able to make scaling the technical infrastructure of our business cost effetive and efficient"</h5>
+                  <p><strong>Rick O'Toole</strong>
+                   <br>Co-founder and CTO</p>
+                  <a class="read" href="#">Read story ></a>
+                </div>
+                <div class="arrow-right col-sm-2 col-md-2">
                   <i class="fa fa-chevron-right hidden-xs" aria-hidden="true"></i>
                 </div>
               </div>
-              <ul class="circle-2">
-                <li><i class="fa fa-circle-o" aria-hidden="true"> </i></li>
+            </div>
+              <ul class="circle-2 ">
+                <li><i class="fa fa-circle" aria-hidden="true"></i></li>
                 <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
                 <li><i class="fa fa-circle-o" aria-hidden="true"></i></li>
               </ul>
+          </div>
+        </div>
+        <div class="and-title">
+          <h2>Get started now.</h2>
+          <button type="button" name="button">Create your account</button>
+        </div>
+      </div>
+      <!-- and development team -->
+
+      <!-- start footer -->
+    <div class="bg-copyright">
+      <div class="container">
+          <div class="row">
+            <div class="copyright">
+              <div class="logo-copyright col-xs-12 col-sm-12 col-md-4">
+                <img src="img/digitalocean-logo-foot.svg" alt="">
+                <p><i class="fa fa-copyright" aria-hidden="true"></i> 2018 DigitalOcean, LLC. All rights reserved.<br><span>Proudly made in NY</span></p>
+              <ul class="social">
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+              <div class="row">
+                <div class="container">
+                  <div class=" col-xs-12 col-sm-12 col-md-8">
+                    <div class="row">
+                    <div class="tab-logo">
+                      <ul class=" col-sm-6 col-md-3">
+                        <li> <h3>Company</h3> </li>
+                        <li>About</li>
+                        <li>Leadership</li>
+                        <li>Link</li>
+                        <li>Blog</li>
+                        <li>careers</li>
+                        <li>Partener Network</li>
+                        <li>Referral Program</li>
+                        <li>Events</li>
+                        <li>Press</li>
+                        <li>Legal & Security</li>
+                      </ul>
+                      <ul class=" col-sm-6 col-md-3">
+                        <li> <h3>Company</h3> </li>
+                        <li>About</li>
+                        <li>Leadership</li>
+                        <li>Link</li>
+                        <li>Blog</li>
+                        <li>careers</li>
+                        <li>Partener Network</li>
+                        <li>Referral Program</li>
+                        <li>Events</li>
+                        <li>Press</li>
+                        <li>Legal & Security</li>
+                      </ul>
+                    </div>
+                      <div class="tab-logo ">
+                        <ul class=" col-sm-6 col-md-3">
+                          <li> <h3>Company</h3> </li>
+                          <li>About</li>
+                          <li>Leadership</li>
+                          <li>Link</li>
+                          <li>Blog</li>
+                          <li>careers</li>
+                          <li>Partener Network</li>
+                          <li>Referral Program</li>
+                          <li>Events</li>
+                          <li>Press</li>
+                          <li>Legal & Security</li>
+                        </ul>
+                        <ul class=" col-sm-6 col-md-3">
+                          <li> <h3>Company</h3> </li>
+                          <li>About</li>
+                          <li>Leadership</li>
+                          <li>Link</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+        <!-- and footer -->
 
   </body>
 </html>
