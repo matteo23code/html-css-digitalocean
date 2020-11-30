@@ -50,7 +50,6 @@
 
 .jumbo span{
   color: lightgrey;
-  line
 }
 
 .deploy{
@@ -143,6 +142,7 @@ margin-top: 40px;
   color: #8791A8;
   font-weight: bold;
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .tab-1{
@@ -200,6 +200,10 @@ margin-top: 40px;
 
  .contain-service{
    margin: 50px 0;
+ }
+
+ .service-item img{
+   width: 30px;
  }
 
  .service-item{
@@ -298,12 +302,12 @@ margin-top: 40px;
 }
 
 .copyright{
-  margin-bottom: 40px;
+
 }
 
 .logo-copyright{
   font-size: 16px;
-  padding-left: 30px;
+
 }
 
 .logo-copyright img{
@@ -326,6 +330,9 @@ margin-top: 40px;
   font-size: 16px;
 }
 
+.copyright{
+  padding: 15px;
+}
 .social li{
   display: inline-block;
   color: #8791A8;
@@ -336,9 +343,10 @@ margin-top: 40px;
 
 .tab-logo li{
   display: block;
+  color: #8791A8;
 }
 
-.tab-logo h3{
+.tab-logo span{
   color: #fff;
   font-size: 18px;
 }
@@ -351,19 +359,37 @@ margin-top: 40px;
 
 @media screen and (min-width: 768px){
 
-  .item{
-    padding-top: 15px;
-  }
+  /* navbar */
+  
+   /* and navbar */
+
+   /* jumbotron */
 
   .jumbo{
     padding-left: 0px;
   }
+  /* and jumbotron */
 
+  /* start main page "section innovative" */
   .bl-innovative img{
     width: 100px;
     margin: 30px 10px 30px 0px;
   }
+  /* start main page "section innovative" */
+  /* start deploy and scale */
+  .description ul{
+    border:none;
+    line-height: 2.5;
+    margin-top: 40px;
 
+  }
+
+  .description{
+    width: 100px;
+    margin-left: 50px;
+    border-left: 1px solid #8791A8;
+  }
+  /* and deploy and scale */
   .inside{
     font-size: 11px;
     font-weight: bold;

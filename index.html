@@ -16,20 +16,20 @@
     <nav>
       <div class="container">
         <div class="row">
-          <div class=" border col-xs-12 col-sm-12 col-md-12">
+          <div class=" col-xs-12 col-sm-12 col-md-12">
           <div class=" navbar-brand col-xs-4 col-sm-6 col-md-3 ">
             <img src="img/digital-ocean-logo.png" alt="">
           </div>
           <div class="navbar-left item col-md-5  hidden-xs hidden-sm">
             <ul >
               <li>
-                <select class="item-menu" name="">
+                <select class="item-menu" name="menu">
                   <option value="">Products</option>
                 </select>
              </li>
               <li>Customers</li>
               <li>
-                <select class="item-menu" name="">
+                <select class="item-menu" name="menu">
                   <option value="">Community</option>
                 </select>
               </li>
@@ -41,7 +41,7 @@
             <ul class="hidden-xs hidden-sm">
               <li>Docs</li>
               <li>
-                <select class="item-menu " name="">
+                <select class="item-menu " name="menu">
                   <option value="">Support</option>
                 </select>
               </li>
@@ -58,8 +58,8 @@
 
     <!-- start jumbotron -->
     <div class="bg-jumbo">
-      <div class="row">
         <div class="container">
+          <div class="row">
           <div class=" jumbo col-xs-12 col-sm-7 col-md-6">
             <h1>The simplest cloud platform for developers & teams</h1>
             <span>Deploy,manage, and scale cloud applications fasters and more efficiently on DigitalOcean. we make managing infrastucture easy for teams andbusinesses, whether you,re running one virtual machine or ten thosand.</span>
@@ -101,48 +101,60 @@
       </div>
     </div>
     <!-- and main page "section innovative" -->
+
     <!-- start deploy & scale -->
-    <div class="container">
+      <div class="container">
         <div class="ds-title text-center">
           <h4><strong>Deploy and scale seamlessly</strong> </h4>
           <p><strong>Our optimized configuration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or Cl/CD environments.</strong></p>
         </div>
-        <div class="row">
-          <div class="description">
-            <ul class="col-xs-12 col-sm-3 col-md-3">
-              <li>Deploy</li>
-              <li>Manage</li>
-              <li>Secure</li>
-              <li>Scale</li>
-              <li>Monitor</li>
-            </ul>
-            <div class="row">
-              <div class="container">
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3 ">
+              <div class="description">
+                <ul>
+                  <li>Deploy</li>
+                  <li>Manage</li>
+                  <li>Secure</li>
+                  <li>Scale</li>
+                  <li>Monitor</li>
+                </ul>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-8">
-                  <div class="row">
-
                   <div class="tab-1 ">
-                    <div class=" inside col-sm-6 col-md-6">
-                      <img src="img/app-platform.svg" alt="">
-                      <h4> <strong>Cluster deployments</strong> </h4>
-                      <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                    <div class=" col-sm-6 col-md-6">
+                      <div class="inside">
+                        <img src="img/app-platform.svg" alt="">
+                        <h4> <strong>Cluster deployments</strong> </h4>
+                        <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                      </div>
                     </div>
-                    <div class=" inside col-sm-6 col-md-6">
-                      <img src="img/flexible-compute-types.svg" alt="">
-                      <h4> <strong>Optimize compute types</strong> </h4>
-                      <p>Get the compute resources you need with Standard or Optimized Droplets</p>
+                    <div class=" col-sm-6 col-md-6">
+                      <div class="inside">
+                        <img src="img/flexible-compute-types.svg" alt="">
+                        <h4> <strong>Optimize compute types</strong> </h4>
+                        <p>Get the compute resources you need with Standard or Optimized Droplets</p>
+                      </div>
                     </div>
                   </div>
                     <div class="tab-2 ">
-                      <div class=" inside col-sm-6 col-md-6">
-                        <img src="img/click-app-marketplace.svg" alt="">
-                        <h4> <strong>One-click apps</strong> </h4>
-                        <p>Skip the install and configuration process	with pre-built open source images	supporting Rails, Cassandra, Docker, andmore.</p>
+                      <div class=" col-sm-6 col-md-6">
+                        <div class="inside">
+                          <img src="img/click-app-marketplace.svg" alt="">
+                          <h4> <strong>One-click apps</strong> </h4>
+                          <p>Skip the install and configuration process	with pre-built open source images	supporting Rails, Cassandra, Docker, andmore.</p>
+                        </div>
                       </div>
-                      <div class=" inside col-sm-6 col-md-6">
-                        <img src="img/kubernetes-in-minutes.svg" alt="">
-                        <h4> <strong>Global availability</strong> </h4>
-                        <p>Deploy to any of our data center regions around the world.</p>
+                      <div class=" col-sm-6 col-md-6">
+                        <div class="inside">
+                          <img src="img/kubernetes-in-minutes.svg" alt="">
+                          <h4> <strong>Global availability</strong> </h4>
+                          <p>Deploy to any of our data center regions around the world.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -150,20 +162,20 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
       <!-- and deploy & scale -->
 
       <!-- start carousel -->
-      <div class="row">
-        <div class="container">
-          <div class=" bg-carousel  text-center col-xs-12 col-sm-12 col-md-12">
+      <div class="bg-carousel  text-center">
+
+      <div class="container">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-12">
             <div class="title-designed">
             <h5>Designed for developers</h5>
             <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           </div>
-            <div class="row">
-              <div class="container">
+            <div class="container">
+              <div class="row">
                 <div class="center-image col-xs-12 col-sm-12 col-md-12">
                   <i class="fa fa-chevron-left hidden-xs" aria-hidden="true"></i>
                   <img src="img/slide-1.jpg" alt="">
@@ -181,25 +193,37 @@
           </div>
         </div>
       </div>
+    </div>
      <!-- and carousel -->
+
       <!-- start features -->
-      <div class="row">
-        <div class="container">
-          <div class="contain-service col-xs-12 col-sm-12 col-md-12">
-            <h2 class="text-center">The features your business needs</h2>
-            <div class=" service-item col-xs-12 col-sm-4 col-md-4">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-12">
+            <div class="contain-service">
+              <h2 class="text-center">The features your business needs</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class=" col-xs-12 col-sm-4 col-md-4">
+            <div class="service-item">
               <img src="img/app-platform.svg" alt="">
               <h4>Predictable pricing</h4>
               <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
               <a href="#">Pricing ></a>
             </div>
-            <div class=" service-item col-xs-12 col-sm-4 col-md-4">
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class=" service-item">
               <img src="img/app-platform.svg" alt="">
               <h4>World-class service</h4>
               <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
               <a href="#">Support ></a>
             </div>
-            <div class=" service-item col-xs-12 col-sm-4 col-md-4">
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class=" service-item">
               <img src="img/app-platform.svg" alt="">
               <h4>Reliable platform</h4>
               <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
@@ -208,6 +232,7 @@
           </div>
         </div>
       </div>
+
       <!-- and features -->
 
       <!-- start coutry service -->
@@ -329,27 +354,30 @@
 
       <!-- start footer -->
     <div class="bg-copyright">
-      <div class="container">
+      <div class="container-inner">
           <div class="row">
             <div class="copyright">
-              <div class="logo-copyright col-xs-12 col-sm-12 col-md-4">
-                <img src="img/digitalocean-logo-foot.svg" alt="">
-                <p><i class="fa fa-copyright" aria-hidden="true"></i> 2018 DigitalOcean, LLC. All rights reserved.<br><span>Proudly made in NY</span></p>
-              <ul class="social">
-                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
-                <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
-              </ul>
+              <div class=" col-xs-12 col-sm-12 col-md-4">
+                <div class="logo-copyright">
+                  <img src="img/digitalocean-logo-foot.svg" alt="">
+                  <p><i class="fa fa-copyright" aria-hidden="true"></i> 2018 DigitalOcean, LLC. All rights reserved.<br><span>Proudly made in NY</span></p>
+                  <ul class="social">
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-              <div class="row">
-                <div class="container">
+          </div>
+              <div class="container-inner">
+                <div class="row">
                   <div class=" col-xs-12 col-sm-12 col-md-8">
-                    <div class="row">
                     <div class="tab-logo">
                       <ul class=" col-sm-6 col-md-3">
-                        <li> <h3>Company</h3> </li>
+                        <li> <span>Company</span> </li>
                         <li>About</li>
                         <li>Leadership</li>
                         <li>Link</li>
@@ -362,7 +390,7 @@
                         <li>Legal & Security</li>
                       </ul>
                       <ul class=" col-sm-6 col-md-3">
-                        <li> <h3>Company</h3> </li>
+                        <li> <span>Company</span> </li>
                         <li>About</li>
                         <li>Leadership</li>
                         <li>Link</li>
@@ -377,7 +405,7 @@
                     </div>
                       <div class="tab-logo ">
                         <ul class=" col-sm-6 col-md-3">
-                          <li> <h3>Company</h3> </li>
+                          <li> <span>Company</span> </li>
                           <li>About</li>
                           <li>Leadership</li>
                           <li>Link</li>
@@ -390,20 +418,16 @@
                           <li>Legal & Security</li>
                         </ul>
                         <ul class=" col-sm-6 col-md-3">
-                          <li> <h3>Company</h3> </li>
+                          <li> <span>Company</span> </li>
                           <li>About</li>
                           <li>Leadership</li>
                           <li>Link</li>
                         </ul>
                       </div>
-                    </div>
                   </div>
                 </div>
               </div>
-            </div>
           </div>
-        </div>
-      </div>
         <!-- and footer -->
 
   </body>
