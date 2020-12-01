@@ -13,10 +13,12 @@
   display: inline-block;
   padding-left: 10px;
   font-weight: bold;
+  padding-top: 15px;
 }
 
 .item-menu{
   border: none;
+
 }
 
 .navbar-right{
@@ -50,11 +52,11 @@
 
 .jumbo span{
   color: lightgrey;
+  font-size: 17px;
 }
 
 .deploy{
   background: white;
-  margin: 20px 0;
   border-radius: 5px;
   color: #102757;
   padding: 20px 10px;
@@ -63,7 +65,7 @@
 
 .deploy span{
   color: #1275FF;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .create input{
@@ -90,49 +92,56 @@
  background: #579AFF;
  color: #fff;
 }
- .create p{
+
+.create p{
    font-size: 10px;
    text-align: center;
    margin-top: 5px;
  }
+
 .fa-google{
   font-size: 18px;
 }
 /*  and jumbotron */
 
 /* start main innovative */
+
 .bg-innovative{
   background: #F3F5F9;
 }
 
-.bl-innovative{
+.innovative{
   color: #8791A8;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.bl-innovative img{
+
+.innovative img{
   width: 150px;
   margin: 30px 20px 30px 20px;
 }
+
+.
 /* and main innovative */
 
 /* start deploy & scale */
-.ds-title h4{
+.ds-title h3{
   color: #082051;
+  font-size: 30px;
 }
 
 .ds-title p{
-  font-size: 15px;
-  color: #8791A8 ;
+  font-size: 18px;
+  color: grey ;
 }
 
 .ds-title{
-margin-top: 40px;
+  margin-top: 40px;
 }
 
 .description ul{
   border-left: 2px solid #8791A8;
-  margin-left: 15px;
   line-height: 2.5;
   margin-top: 40px;
 }
@@ -146,7 +155,7 @@ margin-top: 40px;
 }
 
 .tab-1{
-margin-top: 40px;
+  margin-top: 40px;
 
 }
 
@@ -159,6 +168,10 @@ margin-top: 40px;
   font-size: 12px;
   font-weight: bold;
   color: #8791A8;
+}
+
+.ds-title h3{
+  color: #082051;
 }
 
 .inside h4{
@@ -176,8 +189,9 @@ margin-top: 40px;
   background: #F3F5F9;
 }
 
-.title-designed{
-
+.title-designed p{
+  color: #8791A8;
+  margin-bottom: 100px;
 }
 
 .center-image img{
@@ -185,14 +199,14 @@ margin-top: 40px;
   height: auto;
   padding-left: 0;
   padding-right: 0;
-  vertical-align: middle;
+  margin-bottom: 20px;
 }
 
-
  .circle li{
-   margin-top: 100px;
+   margin: 50px 0;
    color: #1275FF;
    display: inline-block;
+   font-size: 14px;
  }
  /* and carousel */
 
@@ -211,12 +225,17 @@ margin-top: 40px;
    color: #8791A8;
    font-size: 12px;
    margin-top:20px;
+   text-align: left;
  }
 
  .service-item h4{
    font-weight: bold;
    font-size: 18px;
    color: #082051;
+ }
+
+ .service-margin{
+   margin-bottom: 40px;
  }
 /* and features */
 
@@ -229,6 +248,11 @@ margin-top: 40px;
 /* and country service */
 
 /* start second carousel */
+
+.title-designed h2{
+  color: #082051;
+  font-weight: bold;
+}
 
 .title-designed{
   margin: 40px;
@@ -272,7 +296,7 @@ margin-top: 40px;
   margin-bottom: 50px;
   color: #1275FF;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* and second carousel */
@@ -299,11 +323,9 @@ margin-top: 40px;
 
 .bg-copyright{
   background: #010E28;
+  position: relative;
 }
 
-.copyright{
-
-}
 
 .logo-copyright{
   font-size: 16px;
@@ -330,9 +352,6 @@ margin-top: 40px;
   font-size: 16px;
 }
 
-.copyright{
-  padding: 15px;
-}
 .social li{
   display: inline-block;
   color: #8791A8;
@@ -344,6 +363,7 @@ margin-top: 40px;
 .tab-logo li{
   display: block;
   color: #8791A8;
+  line-height: 2;
 }
 
 .tab-logo span{
@@ -356,32 +376,33 @@ margin-top: 40px;
 }
 /* and footer */
 
+.shark {
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
 
 @media screen and (min-width: 768px){
 
-  /* navbar */
-  
-   /* and navbar */
-
    /* jumbotron */
-
   .jumbo{
     padding-left: 0px;
   }
   /* and jumbotron */
 
   /* start main page "section innovative" */
-  .bl-innovative img{
+  .innovative img{
     width: 100px;
     margin: 30px 10px 30px 0px;
   }
   /* start main page "section innovative" */
+
   /* start deploy and scale */
   .description ul{
     border:none;
     line-height: 2.5;
     margin-top: 40px;
-
   }
 
   .description{
@@ -389,12 +410,11 @@ margin-top: 40px;
     margin-left: 50px;
     border-left: 1px solid #8791A8;
   }
-  /* and deploy and scale */
+
   .inside{
     font-size: 11px;
     font-weight: bold;
     color: #8791A8;
-
   }
 
   .inside h4{
@@ -410,13 +430,22 @@ margin-top: 40px;
     margin-bottom: 0px;
     height:  150px;
   }
+  /* and deploy and scale */
 
+  /* first carousel*/
   .title-designed{
     margin: 40px;
     font-weight: bold;
     color: #2B406A;
   }
 
+  .title-designed h3{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  /* and first carousel*/
+
+  /* second carousel*/
   .center-image2{
     background: #fff;
     width: 50%;
@@ -446,16 +475,5 @@ margin-top: 40px;
    font-size: 30px;
    margin-top: 90px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
+  /* and second carousel*/
 }
